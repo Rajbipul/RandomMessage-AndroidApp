@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/yellow"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/main_activity_profile"
+        android:layout_width="215dp"
+        android:layout_height="203dp"
+        android:contentDescription="@string/main_activity_profile_icon"
+        app:srcCompat="@drawable/profile_pic" />
+
+    <TextView
+        android:id="@+id/main_activity_message"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="10dp"
+        android:text="@string/message"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/main_activity_et_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:hint="@string/name_hint"
+        android:inputType="text"
+        android:paddingVertical="10dp"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="#646464"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/main_bt_update"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:text="@string/main_activity_bt"
+        android:textColor="#FFFFFF"
+        android:textColorHighlight="#000000"
+        android:textSize="24sp" />
+</LinearLayout>

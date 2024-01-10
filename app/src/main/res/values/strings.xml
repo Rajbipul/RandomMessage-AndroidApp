@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="title_name">Hello everyone! My name is Bipul Raj.</string>
+    <string name="second_title">U are using my first app made by me.</string>
+    <string name="main_activity_profile_icon">the icon of profile</string>
+    <string name="name_hint">Enter your name here</string>
+    <string name="main_activity_bt">UPDATE</string>
+    <string name="message">Hello World!</string>
+</resources>
